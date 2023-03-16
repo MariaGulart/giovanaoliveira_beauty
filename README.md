@@ -1,1 +1,3 @@
-# giovanaoliveira_beauty
+# giovannaoliveira_beauty
+
+Projeto criado para a microempresa de Giovanna Oliveira Bauty.
