@@ -1,0 +1,70 @@
+/*CSS UNIVERSAL PARA TODA A PÁGINA*/
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: content '\e890';
+}
+
+.alignright {
+  float: left;
+}
+
+/*CSS DO MENU HORIZONTAL*/
+#menu-h {
+  background-color: #f7c3bf;
+  position: center;
+}
+
+
+#menu-h ul {
+  max-width: 100;
+  padding: 0 20px;
+}
+
+#menu-h ul li {
+  display: inline;
+
+}
+
+.menu-h ul li a img {
+  float: right;
+}
+
+#menu-h ul li a {
+  color: #000;
+  padding: 15px;
+  display: inline-block;
+  text-decoration: none;
+  transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+  background-color: rgb(151, 36, 74);
+}
+
+#menu-h ul li:last-child a {
+  float: right;
+  background-color: #e6c8c6;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+/*CSS PARA AS IMAGENS PEQUENAS*/
+
+.column {
+  color: darkolivegreen;
+  float: left;
+  width: 25%;
+  padding: 80px;
+  text-align: center;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
